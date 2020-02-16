@@ -3,6 +3,7 @@
 #    keys are nubmer and value are fruit names  
 # 2. add values() method to fina a 'mango' in dictionary
 # 3. copy the dictionary to new dictionary by using copy() method 
+# 4. remove the element '4' from the dictionary 
 
 my_fruit_dictionary = {
  1:'mango',
@@ -25,4 +26,10 @@ print('--------------******--------------\n')
 my_fruit_dictionary_copy = my_fruit_dictionary.copy
 print(my_fruit_dictionary)
 print(my_fruit_dictionary_copy)
+print('--------------******--------------\n')
+
+# 4. remove the element '4' from the dictionary 
+print(my_fruit_dictionary)
+print(my_fruit_dictionary.pop(4))
+print(my_fruit_dictionary)
 print('--------------******--------------\n')
